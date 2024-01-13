@@ -1,4 +1,6 @@
 I designed a symbolic language specification for the University of Virginia's CS 2130 Computer Systems and Organization binary icode.
+
+
 ***SYNTAX***
 (LABELNAME) adds a marker to the immediately following command. Implements goto logic. The labels are not part of the program itself, but allow for a richer control over program flow compared to the do-while loop
 COMMAND DEST, SOURCE
